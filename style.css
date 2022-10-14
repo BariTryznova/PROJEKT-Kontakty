@@ -39,9 +39,10 @@ PC      960px a víc
 	}
 
 	.box {
-		flex: 1 1 calc(50% - 20px);
+		flex: 1 1 calc(50% - 40px);
 		margin: 10px;
 		text-align: left;
+		display: flex;
 	}
 
 	.foto {
@@ -56,10 +57,12 @@ PC      960px a víc
 			flex: 1 1 calc(25% - 30px);
 			margin: 10px;
 			text-align: center;
+			flex-direction: column;
 		}
 
 		.foto {
 			float: none;
+			margin: 0;
 		}
 	}
 
